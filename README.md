@@ -9,6 +9,6 @@ This is to make your interview process less stressful by giving you an idea:
 
 Sample Problems
 =
-- You should be able to complete these problems within an hour  
+- You should be able to complete each of these problems within an hour
 - Do not over-complicate your solution, write only what you need to meet the goal  
 - Feel free to use these problems as preparation, and you may bring in your solutions as well  
