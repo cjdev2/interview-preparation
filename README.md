@@ -10,6 +10,8 @@ This is to make your interview process less stressful by giving you an idea:
 
 ##Sample Problems
 
+- [time string](src/main/java/com/cj/interview/prep/TimeStringApplication.java)
+- [date range](src/main/java/com/cj/interview/prep/DateRangeApplication.java)
 - You should be able to complete each of these problems within an hour
 - Do not over-complicate your solution, write only what you need to meet the goal
 - Feel free to use these problems as preparation
