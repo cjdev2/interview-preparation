@@ -8,7 +8,7 @@ Restrictions:
 * Test drive your code
 * One file only (pragmatic consideration to keep the interview time down)
 * Standard java libraries only
-* Write your own test functions
+* Write your own test functions (no need for a whole test framework, focus on the parts you need for this exercise)
 
 Requirements:
 Prove that you can correctly implement a function where
