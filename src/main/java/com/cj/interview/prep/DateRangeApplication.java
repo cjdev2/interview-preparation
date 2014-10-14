@@ -7,13 +7,14 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 /*
+
 Goal:
 Demonstrate knowledge of refactoring, architecture, design patterns, object oriented concepts
 
 Requirements:
-This code has issues you should find irritating
-Refactor this code and be prepared to explain your changes
-You do not have to split this code into multiple files, that part of the design is not what we will be focusing on
+Apply the appropriate principles to this code until there is no structural duplication
+No need to bother with the database, it is not the focus of this exercise
+
 */
 public class DateRangeApplication {
     public static void main(String[] args) throws IOException {
