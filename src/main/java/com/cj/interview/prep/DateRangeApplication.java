@@ -12,7 +12,7 @@ Goal:
 Demonstrate knowledge of refactoring, architecture, design patterns, object oriented concepts
 
 Requirements:
-Apply the appropriate principles to this code until there is no structural duplication
+Apply the appropriate principles to this code until there is no duplication (including structural)
 No need to bother with the database, it is not the focus of this exercise
 
 */
@@ -22,12 +22,56 @@ public class DateRangeApplication {
     }
 
     private void run() throws IOException {
+        displayChoices();
+        int userChoice = getUserChoice();
+        generateReport(userChoice);
+    }
+
+    private void displayChoices() {
         System.out.println("Choose the date range to report on: ");
         for (int i = 0; i < DateRangeUtil.timeRangeCount; i++) {
             System.out.println(String.format("(%d) %s", i, DateRangeUtil.getDisplayString(i)));
         }
+    }
+
+    private int getUserChoice() throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        int userSelection = Integer.parseInt(in.readLine());
+        return Integer.parseInt(in.readLine());
+    }
+
+    private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+
+    static class DatabaseUtil {
+        static void runSql(String sql) {
+            //we are not worried about hooking up the database yet
+            System.out.println("sending to database: " + sql);
+        }
+    }
+
+    static class DateRangeUtil {
+        static int timeRangeCount = 6;
+
+        static String getDisplayString(Integer x) {
+            switch (x) {
+                case 0:
+                    return "Last 7 Days";
+                case 1:
+                    return "Last 30 Days";
+                case 2:
+                    return "Last Quarter";
+                case 3:
+                    return "Last Year";
+                case 4:
+                    return "Year to Date";
+                case 5:
+                    return "Quarter to Date";
+                default:
+                    return null;
+            }
+        }
+    }
+
+    private void generateReport(int userSelection) {
         switch (userSelection) {
             case 0:
                 DatabaseUtil.runSql("select * from interesting_data where last_updated > sysdate() - 7");
@@ -78,38 +122,6 @@ public class DateRangeApplication {
                         formatter.format(beginQuarter)));
             }
             break;
-        }
-    }
-
-    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-
-    static class DatabaseUtil {
-        static void runSql(String sql) {
-            //we are not worried about hooking up the database yet
-            System.out.println("sending to database: " + sql);
-        }
-    }
-
-    static class DateRangeUtil {
-        static int timeRangeCount = 6;
-
-        static String getDisplayString(Integer x) {
-            switch (x) {
-                case 0:
-                    return "Last 7 Days";
-                case 1:
-                    return "Last 30 Days";
-                case 2:
-                    return "Last Quarter";
-                case 3:
-                    return "Last Year";
-                case 4:
-                    return "Year to Date";
-                case 5:
-                    return "Quarter to Date";
-                default:
-                    return null;
-            }
         }
     }
 }
