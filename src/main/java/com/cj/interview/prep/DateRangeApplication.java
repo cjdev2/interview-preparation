@@ -9,11 +9,14 @@ import java.time.format.DateTimeFormatter;
 /*
 
 Goal:
-Demonstrate knowledge of refactoring, architecture, design patterns, object oriented concepts
+* Demonstrate knowledge of refactoring, architecture, design patterns, object oriented concepts
 
 Requirements:
-Apply the appropriate principles to this code until there is no duplication (including structural)
-No need to bother with the database, it is not the focus of this exercise
+* Apply the appropriate principles to this code until there is no duplication (including structural)
+* No need to bother with the database, it is not the focus of this exercise
+
+For More Information:
+* See page 255 of "Refactoring: Improving the Design of Existing Code", by Martin Fowler
 
 */
 public class DateRangeApplication {
