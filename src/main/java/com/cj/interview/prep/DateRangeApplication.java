@@ -11,16 +11,20 @@ import java.util.List;
 
 /*
 
-Goal:
-* Demonstrate knowledge of refactoring, architecture, design patterns, object oriented concepts
+## Goal
+- During the in person interview, we are focusing on more high level concepts
+- You should be able to demonstrate knowledge of refactoring, architecture, and object oriented concepts
 
-Requirements:
-* Try to refactor away the need for the duplicate switch statements
-* Feel free to add new classes and/or enums
-* You should not need to modify the tests
+## Requirements
+- Although this sample is in Java, it is the concepts that are important, so feel free to figure this out in any language
+- No one is going to look at your results, this is for your benefit to help make sure you are ready
+- Try to refactor away the duplicate structure in the switch statements
+- Feel free to add new classes and/or enums
+- You can even choose a solution that does not use switch statements at all
+- You should not need to modify the tests
 
-If you need inspiration:
-* See page 255 of "Refactoring: Improving the Design of Existing Code", by Martin Fowler
+## If you need inspiration
+- See page 255 of "Refactoring: Improving the Design of Existing Code", by Martin Fowler
 
 */
 public class DateRangeApplication {
