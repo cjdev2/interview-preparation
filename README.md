@@ -37,7 +37,7 @@ Make sure you can precisely and accurately describe the fundamental concepts of 
 You don't have to know both Object Oriented Programming and Functional Programming, but you will find it difficult to get through our interview process if you don't know one or the other.
 
 ### Test Driven Design
-While we don't currently require that candidates know Test Driven Design before interviewing with us, getting familiar with the concept can help interviews go more smoothly.
+Although we don't currently require that candidates know Test Driven Design before interviewing with us, getting familiar with the concept can help interviews go more smoothly.
 This [RomanNumeralTest](src/main/java/com/cj/interview/prep/RomanNumeralTest.java) example in Java illustrates a style of unit testing commonly called "red/green/refactor".
 Make sure you can follow this step by step introduction in your preferred programming language:
 - [1 red](src/main/java/com/cj/interview/prep/RomanNumeralTestA_1_red.java) - design what the function looks like in terms of how it is tested
