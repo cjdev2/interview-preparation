@@ -16,13 +16,14 @@ This is to make your interview process less stressful by giving you an idea:
 
 ## If you are relatively new, or out of practice:
 
-### Make sure you are very comfortable with coding
+### You need to be very comfortable with coding
 The goal for the initial coding exercise is for us to experience what it is like to code with you.
 Get lots of practice programming, and make sure you can quickly code simple problems.
 Stick to things small enough that you can code them in their entirety in one sitting.
 Avoid relying on libraries and frameworks, you need to understand how to do it yourself first.
 Don't underestimate how fast skills are lost if you don't program every day.
-If you have a lot of knowledge and experience but are rusty, you will probably still do terrible on the coding exercise because you won't be able to accurately showcase your skills. 
+In spite of having a lot of knowledge and experience, people can still perform terribly on the coding exercise because they are rusty.
+Don't schedule an interview with us until you are confident you can accurately showcase your skills.
 
 ### Foundational Principles
 Make sure you understand the foundational theory behind the following:
