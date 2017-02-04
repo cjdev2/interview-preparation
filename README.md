@@ -28,6 +28,7 @@ Don't schedule an interview with us until you are confident you can accurately s
 ### Foundational Principles
 Make sure you understand the foundational theory behind the following:
 - Object Oriented Programming (if you don't know Functional Programming)
+    - Be aware that JavaScript's prototype based inheritance is different from the way most languages implement Object Oriented Programming.
 - Functional Programming (if you don't know Object Oriented Programming)
 - Algorithm Analysis (in particular, Big O notation)
 - Data Structures
