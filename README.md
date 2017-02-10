@@ -31,7 +31,7 @@ You will always have help when dealing with areas you are less familiar with.
 Another way of saying this is that we don't have a QA department.
 Whenever you implement a feature, you are expected to write an automated test that reliably verifies that the feature has not become broken.
 This is not as hard as it may sound, and we have plenty of skilled people here that can show you how to write reliable tests efficiently.
-We also practice "Test Driven Design", wherein the primary function of tests are how they affect the design of the code, and verifying correctness is an important, but secondary concern.
+We also practice "Test Driven Design", wherein the primary function of tests is how they affect the design of the code, and verifying correctness is an important, but secondary concern.
 - We have a sustainable pace.
 Overtime here is rare, and any time we detect it happening we take steps to fix our process, rather than trying to squeeze out more productivity with more time.
 - We practice agile software development.
