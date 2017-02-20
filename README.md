@@ -23,9 +23,9 @@ It is common for engineers to solve technical annoyances on our own.
 This means that if you push code on Tuesday, it will be live, in production, on Wednesday.
 If you push code on Wednesday, it will go live the following Monday.
 While some companies do better than us in this regard, we are moving to daily deployment, and eventually true continuous deployment, where every commit automatically makes its way to production.
-- We do full lifecycle software development, so expect to be involved in every aspect of software engineering, from gui, to database, to requirements analysis, to helping use choose which technology to use.
+- We do full lifecycle (full-stack) software development, so expect to be involved in every aspect of software engineering, from gui, to database, to requirements analysis, to helping choose which technology to use.
 This does not mean you have to be an expert in everything, most of us are only an expert in one, sometimes two areas.
-It does mean that you will be bought up to speed with a basic competence in all aspects of software engineering.
+It does mean that you will be brought up to speed with a basic competence in all aspects of software engineering.
 You will always have help when dealing with areas you are less familiar with.
 - We have an automated Quality Assurance department.
 Another way of saying this is that we don't have a QA department.
