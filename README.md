@@ -57,6 +57,7 @@ Remember this will be a 2-way conversation, so feel free to ask your interviewer
 
 ### You need to be very comfortable with coding
 The goal for the initial coding exercise is for us to experience what it is like to code with you.
+This will be difficult if you are spending most of your time fumbling over language syntax.
 Get lots of practice programming, and make sure you can quickly code simple problems.
 Stick to things small enough that you can code them in their entirety in one sitting.
 Avoid relying on libraries and frameworks, you need to understand how to do it yourself first.
