@@ -41,7 +41,7 @@ It is also worth looking into agile methodologies, such as Scrum, eXtreme Progra
 We realize some may have had bad experiences with this, but we practice it in a sustainable way.
 However, if you disagree with the very concept of pair programming, even when practiced correctly, you won't be happy here.
 
-Remember this will be a 2-way conversation, so feel free to ask your interview questions about any of this.
+Remember this will be a 2-way conversation, so feel free to ask your interviewer questions about any of this.
 
 ## Design Exercise
 - You will be given an exercise to see how you well you can organize code.  Functional or Object Oriented, your choice, but make sure you are able to explain the reasoning behind your decisions.
