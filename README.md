@@ -53,6 +53,12 @@ Remember this will be a 2-way conversation, so feel free to ask your interviewer
     - Input: a bunch of times, minutes and seconds, formatted as a single string like: "12:32 34:01 15:23 9:27 55:22 25:56"
     - Output: the sum of the times, hours, minutes, and seconds, formatted as a single string like: "2:32:41"
 
+## Next interview
+- More of the same, but in-depth
+- Be ready to answer any questions you could not answer on your first interview
+- Make sure you understand how to practically apply abstraction in code
+- For a concrete example of applying abstraction, search the web for "Replace conditional with polymorphism"
+
 ## If you are relatively new, or out of practice:
 
 ### You need to be very comfortable with coding
