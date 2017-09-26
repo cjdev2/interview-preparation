@@ -43,21 +43,26 @@ However, if you disagree with the very concept of pair programming, even when pr
 
 Remember this will be a 2-way conversation, so feel free to ask your interviewer questions about any of this.
 
-## Design Exercise
-- You will be given an exercise to see how you well you can organize code.  Functional or Object Oriented, your choice, but make sure you are able to explain the reasoning behind your decisions.
-
-## Coding exercise
-- For the coding exercise, one of us will be pairing with you via [CoderPad](https://coderpad.io)
-- Make sure you are comfortable with at least one of CoderPad's supported [languages](https://coderpad.io/languages)
-- To check if you are ready, see if you can solve this "time string" example in under an hour: 
-    - Input: a bunch of times, minutes and seconds, formatted as a single string like: "12:32 34:01 15:23 9:27 55:22 25:56"
-    - Output: the sum of the times, hours, minutes, and seconds, formatted as a single string like: "2:32:41"
-
-## Next interview
-- More of the same, but in-depth
-- Be ready to answer any questions you could not answer on your first interview
-- Make sure you understand how to practically apply abstraction in code
-- For a concrete example of applying abstraction, search the web for "Replace conditional with polymorphism"
+## Types of things to expect from our interviews (not all of these will happen in the same interview)
+- Coming up with a design
+    - This is to see how well you can organize code.
+    - Functional or Object Oriented, your choice, but make sure you are able to explain the reasoning behind your decisions.
+- Writing new code
+    - One of us will be pairing with you via [CoderPad](https://coderpad.io)
+    - Make sure you are comfortable with at least one of CoderPad's supported [languages](https://coderpad.io/languages)
+    - To check if you are ready, see if you can solve this "time string" example in under an hour: 
+        - Input: a bunch of times, minutes and seconds, formatted as a single string like: "12:32 34:01 15:23 9:27 55:22 25:56"
+        - Output: the sum of the times, hours, minutes, and seconds, formatted as a single string like: "2:32:41"
+    - Can you translate something you know how to do in your head into working code?
+- Evaluating an existing design
+    - This is to see how well you can understand design.
+    - Be sure you can explain the advantages and disadvantages of a particular design, as well as name the underlying principles at work.
+- Maintaining existing code
+    - Make sure you understand how to practically apply abstraction in code
+    - For a concrete example of applying abstraction, search the web for "Replace conditional with polymorphism"
+    - You will have a pairing partner to help keep you on track regarding the red/green/refactor style of programming
+    - Design decisions will be left up to you to either justify or change as appropriate 
+- In later interviews, be ready to answer any questions you could not answer in earlier interviews
 
 ## If you are relatively new, or out of practice:
 
