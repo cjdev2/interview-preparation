@@ -18,12 +18,12 @@ If you don't understand anything on this list, have questions ready for your int
 We are not for everybody, and that's okay.
 
 - We have business decisions made by business people, and technical decisions made by technical people.  While we are accountable to fulfill business needs, business does not dictate our programming languages, tooling, technology choices, or even how we spend our time.
-It is common for engineers to solve technical annoyances on our own. 
+It is common for engineers to solve technical annoyances on our own.
 - Our continuous deployment is now twice a week, Mondays and Wednesdays.
 This means that if you push code on Tuesday, it will be live, in production, on Wednesday.
 If you push code on Wednesday, it will go live the following Monday.
 While some companies do better than us in this regard, we are moving to daily deployment, and eventually true continuous deployment, where every commit automatically makes its way to production.
-- We do full lifecycle (full-stack) software development, so expect to be involved in every aspect of software engineering, from gui, to database, to requirements analysis, to helping choose which technology to use.
+- We do full lifecycle (full-stack) software development, so expect to be involved in every aspect of software engineering, from front end, to database, to requirements analysis, to helping choose which technology to use.
 This does not mean you have to be an expert in everything, most of us are only an expert in one, sometimes two areas.
 It does mean that you will be brought up to speed with a basic competence in all aspects of software engineering.
 You will always have help when dealing with areas you are less familiar with.
@@ -38,8 +38,10 @@ Overtime here is rare, and any time we detect it happening we take steps to fix 
 Check out the [Agile Manifesto](http://agilemanifesto.org/).
 It is also worth looking into agile methodologies, such as Scrum, eXtreme Programming, and Kanban.
 - We practice pair programming.
-We realize some may have had bad experiences with this, but we practice it in a sustainable way.
-However, if you disagree with the very concept of pair programming, even when practiced correctly, you won't be happy here.
+We find that the highest quality code is produced by close collaboration, so we practice pair programming every day.
+We are one of the rare companies that practices pair programming in an engaging and productive way.
+- We are always improving our code, even our oldest code monolith benefits from constant review and refactoring.
+Our newer code embraces domain separation and maintainability.
 
 Remember this will be a 2-way conversation, so feel free to ask your interviewer questions about any of this.
 
