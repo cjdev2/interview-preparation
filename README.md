@@ -7,9 +7,21 @@ This is to make your interview process less stressful by giving you an idea:
 - what we are looking for, so you have a chance to decide if you are a good fit before coming in
 - what skills will be tested, to help ensure you are ready for our coding exercise
 
-## Things not to do
-- When your interview is scheduled, if there is any reason you are not able to accurately represent your skill set, do not try to get through the interview anyways.  It is far better for us and you if you ask to reschedule the interview.
-- For those familiar with JavaScript, don't assume Prototypal inheritance is representative of object oriented programming.  Do a bit of research before the interview so we can be sure we are speaking the same language.
+## To succeed in our interview process
+- Balance initiative and attentiveness.
+  It should not be effort on our part to get you to showcase your skill set,
+  but don't be so eager that it becomes clear you did not pay attention to what we were asking for.
+- Test drive your code.
+  We don't care how experienced you are with test driven design as long as you demonstrate you can pick it up.
+  If you can't keep separate the red/green/refactor phases in the roman numeral example at the bottom of this document, you are not ready.
+- Make sure you understand how to practically apply abstraction in code.
+  For a concrete example of applying abstraction, search the web for "Replace conditional with polymorphism"
+- When your interview is scheduled,
+  if there is any reason you are not able to accurately represent your skill set,
+  do not try to get through the interview anyways.
+  It is far better for us and you if you ask to reschedule the interview.
+- If you have any questions or concerns regarding the "About Us" section of this document,
+  be ready to ask them during the interview.
 
 ## About Us
 Before interviewing with us, try to make sure we are a good fit for you.
@@ -52,9 +64,10 @@ Remember this will be a 2-way conversation, so feel free to ask your interviewer
 - Writing new code
     - One of us will be pairing with you via [CoderPad](https://coderpad.io)
     - Make sure you are comfortable with at least one of CoderPad's supported [languages](https://coderpad.io/languages)
-    - To check if you are ready, see if you can solve this "time string" example in under an hour: 
+    - To check if you are ready, see if you can create a test driven solution to this "time string" example in under an hour: 
         - Input: a bunch of times, minutes and seconds, formatted as a single string like: "12:32 34:01 15:23 9:27 55:22 25:56"
         - Output: the sum of the times, hours, minutes, and seconds, formatted as a single string like: "2:32:41"
+        - The answer: [Spoiler alert, try it yourself before clicking this link](https://www.youtube.com/watch?v=WQn5EHpa6Wg)
     - Can you translate something you know how to do in your head into working code?
 - Evaluating an existing design
     - This is to see how well you can understand design.
@@ -66,9 +79,7 @@ Remember this will be a 2-way conversation, so feel free to ask your interviewer
     - Design decisions will be left up to you to either justify or change as appropriate 
 - In later interviews, be ready to answer any questions you could not answer in earlier interviews
 
-## If you are relatively new, or out of practice:
-
-### You need to be very comfortable with coding
+## You need to be very comfortable with coding
 The goal for the initial coding exercise is for us to experience what it is like to code with you.
 This will be difficult if you are spending most of your time fumbling over language syntax.
 Get lots of practice programming, and make sure you can quickly code simple problems.
@@ -78,20 +89,17 @@ Don't underestimate how fast skills are lost if you don't program every day.
 In spite of having a lot of knowledge and experience, people can still perform terribly on the coding exercise because they are rusty.
 Don't schedule an interview with us until you are confident you can accurately showcase your skills.
 
-### Foundational Principles
+## Foundational Principles
 Make sure you understand the foundational theory behind the following:
-- Object Oriented Programming (if you don't know Functional Programming)
-    - Be aware that JavaScript's prototype based inheritance is different from the way most languages implement Object Oriented Programming.
-- Functional Programming (if you don't know Object Oriented Programming)
-- Algorithm Analysis (in particular, Big O notation)
+- Object Oriented Programming
+- Functional Programming
+- Algorithm Analysis
 - Data Structures
 
 For each of these, having a deep understanding of the basics is more important than encyclopedic knowledge.
 Make sure you can precisely and accurately describe the fundamental concepts of each topic and are able to recognize how they apply to code you encounter.
-You don't have to know both Object Oriented Programming and Functional Programming, but you will find it difficult to get through our interview process if you don't know one or the other.
 
-### Test Driven Design
-Although we don't currently require that candidates know Test Driven Design before interviewing with us, getting familiar with the concept can help interviews go more smoothly.
+## Test Driven Design
 This [RomanNumeralTest](src/main/java/com/cj/interview/prep/RomanNumeralTest.java) example in Java illustrates a style of unit testing commonly called "red/green/refactor".
 Make sure you can follow this step by step introduction in your preferred programming language:
 - [1 red](src/main/java/com/cj/interview/prep/RomanNumeralTestA_1_red.java) - design what the function looks like in terms of how it is tested
