@@ -3,9 +3,9 @@
 ## Rationale
 This is to make your interview process less stressful by giving you an idea:
 
-- what to expect from an interview
-- what we are looking for, so you have a chance to decide if you are a good fit before coming in
-- what skills will be tested, to help ensure you are ready for our coding exercise
+- What to expect from an interview.
+- What we are looking for, so you have a chance to decide if you are a good fit before coming in.
+- What skills will be tested, to help ensure you are ready for our coding exercise.
 
 ## To succeed in our interview process
 - Balance initiative and attentiveness.
@@ -27,7 +27,7 @@ This is to make your interview process less stressful by giving you an idea:
 Before interviewing with us, try to make sure we are a good fit for you.
 This list should help you understand what sets us apart from other companies.
 If you don't understand anything on this list, have questions ready for your interviewer.
-We are not for everybody, and that's okay.
+We are not for everybody.
 
 - We have business decisions made by business people, and technical decisions made by technical people.  While we are accountable to fulfill business needs, business does not dictate our programming languages, tooling, technology choices, or even how we spend our time.
 It is common for engineers to solve technical annoyances on our own.
