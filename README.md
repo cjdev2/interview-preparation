@@ -55,7 +55,11 @@ We are one of the rare companies that practices pair programming in an engaging 
 - We are always improving our code, even our oldest code monolith benefits from constant review and refactoring.
 Our newer code embraces domain separation and maintainability.
 
+If this sounds exciting to you, you can view our open job listings [here](https://engineering.cj.com/join).
+
 Remember this will be a 2-way conversation, so feel free to ask your interviewer questions about any of this.
+
+
 
 ## Types of things to expect from our interviews (not all of these will happen in the same interview)
 - Coming up with a design
