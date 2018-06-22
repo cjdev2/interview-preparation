@@ -8,6 +8,7 @@ This is to make your interview process less stressful by giving you an idea:
 - What skills will be tested, to help ensure you are ready for our coding exercise.
 
 ## To succeed in our interview process
+- Read this whole document.  It was written by people who have been on both sides of this interview process, so we know what we are talking about when we recommend what you focus on. 
 - Balance initiative and attentiveness.
   It should not be effort on our part to get you to showcase your skill set,
   but don't be so eager that it becomes clear you did not pay attention to what we were asking for.
@@ -19,7 +20,7 @@ This is to make your interview process less stressful by giving you an idea:
 - When your interview is scheduled,
   if there is any reason you are not able to accurately represent your skill set,
   do not try to get through the interview anyways.
-  It is far better for us and you if you ask to reschedule the interview.
+  It is better for us and you if you ask to reschedule the interview.
 - If you have any questions or concerns regarding the "About Us" section of this document,
   be ready to ask them during the interview.
 
@@ -60,19 +61,25 @@ If this sounds exciting to you, you can view our open job listings [here](https:
 Remember this will be a 2-way conversation, so feel free to ask your interviewer questions about any of this.
 
 
+## What to expect from our interviews
 
-## Types of things to expect from our interviews (not all of these will happen in the same interview)
-- Coming up with a design
-    - This is to see how well you can organize code.
-    - Functional or Object Oriented, your choice, but make sure you are able to explain the reasoning behind your decisions.
-- Writing new code
-    - One of us will be pairing with you via [CoderPad](https://coderpad.io)
-    - Make sure you are comfortable with at least one of CoderPad's supported [languages](https://coderpad.io/languages)
-    - To check if you are ready, see if you can create a test driven solution to this "time string" example in under an hour: 
-        - Input: a bunch of times, minutes and seconds, formatted as a single string like: "12:32 34:01 15:23 9:27 55:22 25:56"
-        - Output: the sum of the times, hours, minutes, and seconds, formatted as a single string like: "2:32:41"
-        - The answer: [Spoiler alert, try it yourself before clicking this link](https://www.youtube.com/watch?v=WQn5EHpa6Wg)
-    - Can you translate something you know how to do in your head into working code?
+### Web screen
+- Test driven design and implementation of a small set of requirements.
+    - What we are looking for
+        - Not implementing things there is no requirement for.
+        - Minimally implementing features one at a time.
+        - Being able to operate in red/green/refactor style.
+        - Understanding of design principles.
+    - Coderpad
+        - You will choose a [coderpad supported programming language](https://coderpad.io/languages).
+        - Be sure you know how write tests, and create either fakes, stubs, or mocks in that programming language
+        - Practice writing tests with the [coderpad](https://coderpad.io) demo
+        - Try creating a test driven solution to this "time string" example in under an hour: 
+            - Input: a bunch of times, minutes and seconds, formatted as a single string like: "12:32 34:01 15:23 9:27 55:22 25:56"
+            - Output: the sum of the times, hours, minutes, and seconds, formatted as a single string like: "2:32:41"
+            - The answer: [Spoiler alert, try it yourself before clicking this link](https://www.youtube.com/watch?v=WQn5EHpa6Wg)
+
+### In person interview
 - Evaluating an existing design
     - This is to see how well you can understand design.
     - Be sure you can explain the advantages and disadvantages of a particular design, as well as name the underlying principles at work.
@@ -81,7 +88,6 @@ Remember this will be a 2-way conversation, so feel free to ask your interviewer
     - For a concrete example of applying abstraction, search the web for "Replace conditional with polymorphism"
     - You will have a pairing partner to help keep you on track regarding the red/green/refactor style of programming
     - Design decisions will be left up to you to either justify or change as appropriate 
-- In later interviews, be ready to answer any questions you could not answer in earlier interviews
 
 ## You need to be very comfortable with coding
 The goal for the initial coding exercise is for us to experience what it is like to code with you.
