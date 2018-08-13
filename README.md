@@ -60,7 +60,6 @@ If this sounds exciting to you, you can view our open job listings [here](https:
 
 Remember this will be a 2-way conversation, so feel free to ask your interviewer questions about any of this.
 
-
 ## What to expect from our interviews
 
 ### Web screen
@@ -79,6 +78,8 @@ Remember this will be a 2-way conversation, so feel free to ask your interviewer
             - Input: a bunch of times, minutes and seconds, formatted as a single string like: "12:32 34:01 15:23 9:27 55:22 25:56"
             - Output: the sum of the times, hours, minutes, and seconds, formatted as a single string like: "2:32:41"
             - The answer: [Spoiler alert, try it yourself before clicking this link](https://www.youtube.com/watch?v=WQn5EHpa6Wg)
+    - Be able to unit test both state changes and side effects
+        - For example, if you log something, you will need to test that the correct thing is logged without relying on a logging framework.
 
 ### In person interview
 - Evaluating an existing design
