@@ -73,7 +73,8 @@ Remember this will be a 2-way conversation, so feel free to ask your interviewer
         - You will choose a [coderpad supported programming language](https://coderpad.io/languages).
         - Be sure you know how write tests, and create either fakes, stubs, or mocks in that programming language
         - Practice writing tests with the [coderpad](https://coderpad.io/sandbox) sandbox
-            - See [examples](coderpad-testing.md) of how to write tests in coderpad  
+            - See [examples](coderpad-testing.md) of how to write tests in coderpad
+            - Be sure you also know how to test [side effects](side-effect-testing.md)  
         - Try creating a test driven solution to this "time string" example in under an hour: 
             - Input: a bunch of times, minutes and seconds, formatted as a single string like: "12:32 34:01 15:23 9:27 55:22 25:56"
             - Output: the sum of the times, hours, minutes, and seconds, formatted as a single string like: "2:32:41"
