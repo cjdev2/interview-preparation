@@ -1,18 +1,14 @@
-package com.cj.interview.prep;
+package com.cj.interview.preparation;
 
-public class RomanNumeralTestG_3_green {
+public class RomanNumeralTestA_1_red {
     public static void main(String[] args) {
-        new RomanNumeralTestG_3_green().run();
+        new RomanNumeralTestA_1_red().run();
     }
 
     private void run() {
-        test(1, "I");
-        test(2, "II");
-        test(3, "III");
-    }
-
-    private void test(int number, String expected) {
+        int number = 1;
         String actual = romanNumeral(number);
+        String expected = "I";
         if (expected.equals(actual)) {
             System.out.println(String.format("SUCCESS: %d -> %s", number, expected));
         } else {
@@ -23,12 +19,6 @@ public class RomanNumeralTestG_3_green {
     }
 
     private String romanNumeral(int value) {
-        if (value == 1) {
-            return "I";
-        } else if (value == 2) {
-            return "II";
-        } else {
-            return "III";
-        }
+        return "?";
     }
 }

@@ -1,4 +1,4 @@
-package com.cj.interview.prep;
+package com.cj.interview.preparation;
 
 public class RomanNumeralTest {
     public static void main(String[] args) {

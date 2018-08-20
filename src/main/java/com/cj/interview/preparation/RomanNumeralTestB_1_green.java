@@ -1,8 +1,8 @@
-package com.cj.interview.prep;
+package com.cj.interview.preparation;
 
-public class RomanNumeralTestA_1_red {
+public class RomanNumeralTestB_1_green {
     public static void main(String[] args) {
-        new RomanNumeralTestA_1_red().run();
+        new RomanNumeralTestB_1_green().run();
     }
 
     private void run() {
@@ -19,6 +19,6 @@ public class RomanNumeralTestA_1_red {
     }
 
     private String romanNumeral(int value) {
-        return "?";
+        return "I";
     }
 }

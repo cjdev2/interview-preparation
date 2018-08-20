@@ -1,13 +1,14 @@
-package com.cj.interview.prep;
+package com.cj.interview.preparation;
 
-public class RomanNumeralTestE_2_green {
+public class RomanNumeralTestH_3_refactor {
     public static void main(String[] args) {
-        new RomanNumeralTestE_2_green().run();
+        new RomanNumeralTestH_3_refactor().run();
     }
 
     private void run() {
         test(1, "I");
         test(2, "II");
+        test(3, "III");
     }
 
     private void test(int number, String expected) {
@@ -22,10 +23,14 @@ public class RomanNumeralTestE_2_green {
     }
 
     private String romanNumeral(int value) {
-        if (value == 1) {
-            return "I";
-        } else {
-            return "II";
+        return repeatI(value);
+    }
+
+    private String repeatI(int times) {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 0; i < times; i++) {
+            stringBuilder.append("I");
         }
+        return stringBuilder.toString();
     }
 }
