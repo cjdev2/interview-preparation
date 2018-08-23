@@ -75,7 +75,7 @@ instance Recorder (Writer [String]) where
   record s = tell [s]
 ```
 A note on the language extensions used here:  
-  * `{-# LANGUAGE TypeSynonymInstances #-}` is needed to create our `Writer` instance for `Recorder` because `Writer` is defined in mtl as a type synonym `type Writer w = WriterT w Identity`.  
+  * `{-# LANGUAGE TypeSynonymInstances #-}` is needed to create our `Recorder` instance for `Writer` because `Writer` is defined in mtl as a type synonym `type Writer w = WriterT w Identity`.  
   * `{-# LANGUAGE FlexibleInstances #-}` is required so that we can specify a concrete type of `[String]` for our `Writer`.  
   
 You don't need to know these extensions by heart, the compiler will tell you when you need to turn them on.
