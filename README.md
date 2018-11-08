@@ -71,7 +71,7 @@ Remember this will be a 2-way conversation, so feel free to ask your interviewer
         - Understanding of design principles.
     - Coderpad
         - You will choose a [coderpad supported programming language](https://coderpad.io/languages).
-        - Be sure you know how write tests, and create either fakes, stubs, or mocks in that programming language
+        - Be sure you know how write tests, and create either [fakes, stubs, or mocks](https://martinfowler.com/articles/mocksArentStubs.html) in that programming language
         - Practice writing tests with the [coderpad](https://coderpad.io/sandbox) sandbox
             - See [examples](coderpad-testing.md) of how to write tests in coderpad
             - Be sure you also know how to test [side effects](side-effect-testing.md)  
