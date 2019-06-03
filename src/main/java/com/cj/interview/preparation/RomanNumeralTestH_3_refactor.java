@@ -11,17 +11,6 @@ public class RomanNumeralTestH_3_refactor {
         test(3, "III");
     }
 
-    private void test(int number, String expected) {
-        String actual = romanNumeral(number);
-        if (expected.equals(actual)) {
-            System.out.println(String.format("SUCCESS: %d -> %s", number, expected));
-        } else {
-            System.out.println(String.format("FAILURE: %d", number));
-            System.out.println(String.format("  actual  : %s", actual));
-            System.out.println(String.format("  expected: %s", expected));
-        }
-    }
-
     private String romanNumeral(int value) {
         return repeatI(value);
     }
@@ -32,5 +21,16 @@ public class RomanNumeralTestH_3_refactor {
             stringBuilder.append("I");
         }
         return stringBuilder.toString();
+    }
+
+    private void test(int number, String expected) {
+        String actual = romanNumeral(number);
+        if (expected.equals(actual)) {
+            System.out.println(String.format("SUCCESS: %d -> %s", number, expected));
+        } else {
+            System.out.println(String.format("FAILURE: %d", number));
+            System.out.println(String.format("  actual  : %s", actual));
+            System.out.println(String.format("  expected: %s", expected));
+        }
     }
 }

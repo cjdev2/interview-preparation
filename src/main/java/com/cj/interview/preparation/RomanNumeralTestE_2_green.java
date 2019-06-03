@@ -10,6 +10,14 @@ public class RomanNumeralTestE_2_green {
         test(2, "II");
     }
 
+    private String romanNumeral(int value) {
+        if (value == 1) {
+            return "I";
+        } else {
+            return "II";
+        }
+    }
+
     private void test(int number, String expected) {
         String actual = romanNumeral(number);
         if (expected.equals(actual)) {
@@ -18,14 +26,6 @@ public class RomanNumeralTestE_2_green {
             System.out.println(String.format("FAILURE: %d", number));
             System.out.println(String.format("  actual  : %s", actual));
             System.out.println(String.format("  expected: %s", expected));
-        }
-    }
-
-    private String romanNumeral(int value) {
-        if (value == 1) {
-            return "I";
-        } else {
-            return "II";
         }
     }
 }

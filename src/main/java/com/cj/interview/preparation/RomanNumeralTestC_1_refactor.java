@@ -9,6 +9,10 @@ public class RomanNumeralTestC_1_refactor {
         test(1, "I");
     }
 
+    private String romanNumeral(int value) {
+        return "I";
+    }
+
     private void test(int number, String expected) {
         String actual = romanNumeral(number);
         if (expected.equals(actual)) {
@@ -18,9 +22,5 @@ public class RomanNumeralTestC_1_refactor {
             System.out.println(String.format("  actual  : %s", actual));
             System.out.println(String.format("  expected: %s", expected));
         }
-    }
-
-    private String romanNumeral(int value) {
-        return "I";
     }
 }

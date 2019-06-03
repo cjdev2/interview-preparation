@@ -37,17 +37,6 @@ public class RomanNumeralTest {
         test(3999, "MMMCMXCIX");
     }
 
-    private void test(int number, String expected) {
-        String actual = romanNumeral(number);
-        if (expected.equals(actual)) {
-            System.out.println(String.format("SUCCESS: %d -> %s", number, expected));
-        } else {
-            System.out.println(String.format("FAILURE: %d", number));
-            System.out.println(String.format("  actual  : %s", actual));
-            System.out.println(String.format("  expected: %s", expected));
-        }
-    }
-
     private String romanNumeral(int value) {
         return romanNumeralRecursive(value, "IVXLCDM??");
     }
@@ -88,5 +77,16 @@ public class RomanNumeralTest {
             stringBuilder.append(ch);
         }
         return stringBuilder.toString();
+    }
+
+    private void test(int number, String expected) {
+        String actual = romanNumeral(number);
+        if (expected.equals(actual)) {
+            System.out.println(String.format("SUCCESS: %d -> %s", number, expected));
+        } else {
+            System.out.println(String.format("FAILURE: %d", number));
+            System.out.println(String.format("  actual  : %s", actual));
+            System.out.println(String.format("  expected: %s", expected));
+        }
     }
 }
