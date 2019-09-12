@@ -106,8 +106,7 @@ Don't schedule an interview with us until you are confident you can accurately s
 Make sure you understand the foundational theory behind the following:
 - Object Oriented Programming
 - Functional Programming
-- Algorithm Analysis
-- Data Structures
+- Agile Software Development
 
 For each of these, having a deep understanding of the basics is more important than encyclopedic knowledge.
 Make sure you can precisely and accurately describe the fundamental concepts of each topic and are able to recognize how they apply to code you encounter.
