@@ -111,6 +111,8 @@ Make sure you understand the foundational theory behind the following:
 For each of these, having a deep understanding of the basics is more important than encyclopedic knowledge.
 Make sure you can precisely and accurately describe the fundamental concepts of each topic and are able to recognize how they apply to code you encounter.
 
+We are also interested in your opinions regarding clean, well crafted, code.
+
 ## Test Driven Design
 This [RomanNumeralTest](src/main/java/com/cj/interview/preparation/RomanNumeralTest.java) example in Java illustrates a style of unit testing commonly called "red/green/refactor".
 Make sure you can follow this step by step introduction in your preferred programming language:
