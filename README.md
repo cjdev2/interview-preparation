@@ -91,6 +91,11 @@ Remember this will be a 2-way conversation, so feel free to ask your interviewer
     - For a concrete example of applying abstraction, search the web for "Replace conditional with polymorphism"
     - You will have a pairing partner to help keep you on track regarding the red/green/refactor style of programming
     - Design decisions will be left up to you to either justify or change as appropriate 
+    - You won't necessarily know the programming language for this exercise, but you will have a pairing partner
+        - Understands everything about the language and libraries
+        - If you can precisely articulate your intent, your pairing partner can help you with the syntax
+        - Can explain anything about how the code is
+        - Sometimes gets stuck on design decisions, you will have to take the lead on this
 
 ## You need to be very comfortable with coding
 The goal for the initial coding exercise is for us to experience what it is like to code with you.
