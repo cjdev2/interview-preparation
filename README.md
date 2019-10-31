@@ -1,5 +1,7 @@
 # Interview Preparation for CJ
 
+[bengaluru candidates also see here](bengaluru.md)
+
 ## Rationale
 This is to make your interview process less stressful by giving you an idea:
 
