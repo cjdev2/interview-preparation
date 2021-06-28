@@ -17,8 +17,13 @@ This is to make your interview process less stressful by giving you an idea:
 - Test drive your code.
   We don't care how experienced you are with test driven design as long as you demonstrate you can pick it up.
   If you can't keep separate the red/green/refactor phases in the roman numeral example at the bottom of this document, you are not ready.
-- Make sure you understand how to practically apply abstraction in code.
-  For a concrete example of applying abstraction, search the web for "Replace conditional with polymorphism"
+- Make sure you understand how to practically apply abstraction in code. For a concrete example of applying abstraction,
+  search the web for "Replace conditional with polymorphism". Take the
+  contrived [AbstractionSample](/src/main/java/com/cj/interview/preparation/AbstractionSample.java) for instance. When
+  presented with something like [TimePeriodsA](/src/main/java/com/cj/interview/preparation/TimePeriodsA.java), you
+  should be able to notice the structural duplication in the switch statements, and introduce the proper abstractions.
+  One of many possible ways to do this is demonstrated
+  in [TimePeriodsB](/src/main/java/com/cj/interview/preparation/TimePeriodsB.java),
 - When your interview is scheduled,
   if there is any reason you are not able to accurately represent your skill set,
   do not try to get through the interview anyways.
