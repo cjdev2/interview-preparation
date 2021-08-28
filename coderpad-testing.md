@@ -303,8 +303,7 @@ assertEquals msg a1 a2 =
 
 ## Java
 ```
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import org.junit.*;
 import org.junit.runner.*;
 
