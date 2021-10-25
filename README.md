@@ -19,7 +19,7 @@ This is to make your interview process less stressful by giving you an idea:
   If you can't keep separate the red/green/refactor phases in the roman numeral example at the bottom of this document, you are not ready.
 - Make sure you understand how to practically apply abstraction in code. For a concrete example of applying abstraction,
   search the web for "Replace conditional with polymorphism". Take the
-  contrived [AbstractionSample](/src/main/java/com/cj/interview/preparation/AbstractionSample.java) for instance. When
+  contrived [TimePeriodsSample](/src/main/java/com/cj/interview/preparation/TimePeriodsSample.java) for instance. When
   presented with something like [TimePeriodsA](/src/main/java/com/cj/interview/preparation/TimePeriodsA.java), you
   should be able to notice the structural duplication in the switch statements, and introduce the proper abstractions.
   One of many possible ways to do this is demonstrated
@@ -69,7 +69,7 @@ Remember this will be a 2-way conversation, so feel free to ask your interviewer
 
 ## What to expect from our interviews
 
-### Web screen
+### Technical screen
 - Test driven design and implementation of a small set of requirements.
     - What we are looking for
         - Not implementing things there is no requirement for.
@@ -77,19 +77,30 @@ Remember this will be a 2-way conversation, so feel free to ask your interviewer
         - Being able to operate in red/green/refactor style.
         - Understanding of design principles.
     - Coderpad
+        - Make sure you understand how to separate responsibilities and choose abstraction boundaries
+            - For example, in
+              the [TimePeriodsSample](/src/main/java/com/cj/interview/preparation/TimePeriodsSample.java),
+            - you should understand how to convert from something
+              like [TimePeriodsA](/src/main/java/com/cj/interview/preparation/TimePeriodsA.java),
+            - to something like [TimePeriodsB](/src/main/java/com/cj/interview/preparation/TimePeriodsB.java),
+            - and be able to explain the benefits
         - You will choose a [coderpad supported programming language](https://coderpad.io/languages).
-        - Be sure you know how write tests, and create either [fakes, stubs, or mocks](https://martinfowler.com/articles/mocksArentStubs.html) in that programming language
+        - Be sure you know how write tests, and create
+          either [fakes, stubs, or mocks](https://martinfowler.com/articles/mocksArentStubs.html) in that programming
+          language
         - Practice writing tests with the [coderpad](https://coderpad.io/sandbox) sandbox
             - See [examples](coderpad-testing.md) of how to write tests in coderpad
-            - Be sure you also know how to test [side effects](side-effect-testing.md)  
-        - Try creating a test driven solution to this "time string" example in under an hour: 
-            - Input: a bunch of times, minutes and seconds, formatted as a single string like: "12:32 34:01 15:23 9:27 55:22 25:56"
+            - Be sure you also know how to test [side effects](side-effect-testing.md)
+        - Try creating a test driven solution to this "time string" example in under an hour:
+            - Input: a bunch of times, minutes and seconds, formatted as a single string like: "12:32 34:01 15:23 9:27
+              55:22 25:56"
             - Output: the sum of the times, hours, minutes, and seconds, formatted as a single string like: "2:32:41"
-            - The answer: [Spoiler alert, try it yourself before clicking this link](https://www.youtube.com/watch?v=WQn5EHpa6Wg)
+            - The
+              answer: [Spoiler alert, try it yourself before clicking this link](https://www.youtube.com/watch?v=WQn5EHpa6Wg)
     - Be able to unit test both state changes and side effects
         - For example, if you log something, you will need to test that the correct thing is logged without relying on a logging framework.
 
-### In person interview
+### Panel interview
 - Evaluating an existing design
     - This is to see how well you can understand design.
     - Be sure you can explain the advantages and disadvantages of a particular design, as well as name the underlying principles at work.

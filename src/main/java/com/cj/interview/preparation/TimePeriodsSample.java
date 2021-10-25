@@ -5,9 +5,9 @@ import java.time.Instant;
 import java.time.ZoneId;
 import java.util.List;
 
-public class AbstractionSample implements Runnable {
+public class TimePeriodsSample implements Runnable {
     public static void main(String[] args) {
-        new AbstractionSample().run();
+        new TimePeriodsSample().run();
     }
 
     @Override
