@@ -347,13 +347,13 @@ chai.assert.equal('abc', 'abc', 'compare strings');
 chai.assert.deepEqual([1,2,3], [1,2,3], 'compare arrays');
 ```
 
-## JavaScript (mocha)
-```
-var Mocha = require('mocha')
-var assert = require('assert')
-var mocha = new Mocha()
-
-mocha.suite.emit('pre-require', this, 'solution', mocha)
+## JavaScript or TypeScript (mocha)
+```javascript
+const Mocha = require('mocha');
+const assert = require('assert');
+const { describe, it } = Mocha;
+const mocha = new Mocha();
+mocha.suite.emit('pre-require', this, 'solution', mocha);
 
 describe('Test suite', function() {
   it('check boolean', function() {
@@ -370,7 +370,7 @@ describe('Test suite', function() {
   })
 })
 
-mocha.run()
+mocha.run();
 ```
 
 ## Kotlin
