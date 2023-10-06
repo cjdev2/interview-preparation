@@ -126,18 +126,6 @@ public class Runner {
 (clojure.test/is (= (list 1 2 3) (list 1 2 3)))
 ```
 
-## CoffeeScript (chai)
-```
-chai = require('chai')
-sinon = require('sinon')
-sinonChai = require('sinon-chai')
-
-chai.assert.ok(true, 'check boolean');
-chai.assert.equal(2, 2, 'compare numbers');
-chai.assert.equal('abc', 'abc', 'compare strings');
-chai.assert.deepEqual([1,2,3], [1,2,3], 'compare arrays');
-```
-
 ## CoffeeScript (mocha)
 ```
 Mocha = require('mocha')
@@ -333,18 +321,6 @@ public class Solution {
       JUnitCore.main("Solution");
     }
 }
-```
-
-## JavaScript (chai)
-```
-var chai = require('chai')
-var sinon = require('sinon')
-var sinonChai = require('sinon-chai')
-
-chai.assert.ok(true, 'check boolean');
-chai.assert.equal(2, 2, 'compare numbers');
-chai.assert.equal('abc', 'abc', 'compare strings');
-chai.assert.deepEqual([1,2,3], [1,2,3], 'compare arrays');
 ```
 
 ## JavaScript or TypeScript (mocha)
