@@ -620,26 +620,61 @@ fn main() {
 }
 ```
 
-## Scala
+## Scala (AnyFlatSpec)
 ```
-import org.scalatest.{FunSuite, Matchers}
+// To execute Scala code, please define an object named Solution that extends App
 
-class Testable extends FunSuite with Matchers {
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
+
+class Testable extends AnyFlatSpec with Matchers {
+  "A boolean" should "be true" in {
+    true should be (true)
+  }
+
+  "Numbers" should "be equal" in {
+    2 should be (2)
+  }
+
+  "Strings" should "be identical" in {
+    "abc" should be ("abc")
+  }
+
+  "Lists" should "be identical" in {
+    Seq(1, 2, 3) should be (Seq(1, 2, 3))
+  }
+  
+}
+
+object Solution extends App {
+  new Testable().execute()
+}
+```
+
+## Scala (AnyFunSuite)
+```
+// To execute Scala code, please define an object named Solution that extends App
+
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
+
+class Testable extends AnyFunSuite with Matchers {
   test("check boolean") {
-    assert(true, "boolean value is true");
+    true should be (true)
   }
 
   test("compare numbers") {
-    assert(2 === 2);
+    2 should be (2)
   }
 
   test("compare strings") {
-    assert("abc" === "abc");
+    "abc" should be ("abc")
   }
 
   test("compare lists") {
-    assert(Seq(1,2,3) === Seq(1,2,3));
+    Seq(1,2,3) should be (Seq(1,2,3))
   }
+
 }
 
 object Solution extends App {
